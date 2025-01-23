@@ -55,14 +55,13 @@ def main():
 
     location_button = CTkButton(root, text="Select Location", command=select_location)
     location_button.grid(row=3, column=1, padx=10, pady=5, sticky="w")
-
     download_button = CTkButton(
         root,
         text="Download",
         command=lambda: download_video(url_entry.get()),
     )
     download_button.grid(row=4, column=0, columnspan=2, pady=25)
-
+    
     root.mainloop()
 
 if __name__ == "__main__":
