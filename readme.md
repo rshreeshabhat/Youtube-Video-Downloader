@@ -2,6 +2,11 @@
 
 This project is a YouTube Video Downloader that allows users to download videos from YouTube.
 
+## Requirements
+
+1. Python
+2. yt-dlp
+
 ## Installation
 
 1. Clone the repository:
